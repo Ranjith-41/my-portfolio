@@ -3,15 +3,17 @@
     margin-top: 60px;
     padding: 20px;
     background-color: black;
-    height: 90vh;
+    height: auto;
     color: #fff;
 }
 .project-card {
+ 
     position: relative;
     overflow: hidden;
-    height:250px!important;
-    width:350px;
-    margin: 10px;
+    height:350px!important;
+    width:450px;
+    margin: 20px;
+    margin-left:130px;
   }
   
   /* Default image styling */
@@ -57,5 +59,12 @@
     .project{
         height: auto;
         
+    }
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      height:250px!important;
+      width:350px;
+      margin: 10px;
     }
   }

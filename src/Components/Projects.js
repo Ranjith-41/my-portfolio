@@ -9,7 +9,7 @@ const Projects = () => {
 
   <Row className="g-4">
 
-  <Col md={4}>
+  <Col md={5}>
       <Card className="project-card">
         {/* Image */}
         <Card.Img variant="top" src="./project-image/avani.png" alt="Avani Smart Children's Clinic Website" className="project-image" />
@@ -29,7 +29,7 @@ const Projects = () => {
 
 
       {/* HomeChef Website */}
-      <Col md={4}>
+      <Col md={5}>
         <Card className=" project-card">
           <Card.Img variant="top" src="./project-image/homechef.png" alt="HomeChef Website" className="project-image" />
           <div className="card-hover-content">
@@ -44,8 +44,39 @@ const Projects = () => {
         </Card>
       </Col>
 
-      {/* CRUD Application */}
-      <Col md={4}>
+    
+
+
+  </Row>
+  <Row>
+    <Col md={5}>
+  <Card className="project-card">
+    {/* Image */}
+    <Card.Img
+      variant="top"
+      src="./project-image/portfolio.png"
+      alt="My Portfolio Website"
+      className="project-image"
+    />
+
+    {/* Hover Content */}
+    <div className="card-hover-content">
+      <Card.Body>
+        {/* Title */}
+        <Card.Title>My Portfolio Website</Card.Title>
+        <Card.Text>
+          A personal portfolio website showcasing projects and skills, built using the MERN stack (MongoDB, Express, React.js, Node.js).
+        </Card.Text>
+        <a href="https://ranjith-portfolio-eight.vercel.app/" className="btn btn-primary">
+          VISIT NOW!
+        </a>
+      </Card.Body>
+    </div>
+  </Card>
+</Col>
+
+  {/* CRUD Application */}
+  <Col md={5}>
         <Card className=" project-card">
           <Card.Img variant="top" src="./project-image/crud.png" alt="CRUD Application" className="project-image" />
           <div className="card-hover-content">
@@ -59,8 +90,6 @@ const Projects = () => {
           </div>
         </Card>
       </Col>
-
-
   </Row>
 
 </Container>

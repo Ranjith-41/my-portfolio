@@ -10,7 +10,7 @@ const About = () => {
     <Row>
     <Col lg={3} xs={3}>
       <div className="me">
-      <img id="me-photo" src="./image/me2.png"/>
+      <img id="me-photo" alt="Ranjith" src="./image/me2.png"/>
       </div>  
       </Col>
       <Col lg={9} xs={9}>
