@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill {
+    margin-top: 40px;
+    background: black no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.skill-card {
+    height: 250px;
+    width: 100px;
+    border-radius: 100px; /* Changed from 100px for a balanced look */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+     box-shadow:0.3s ease;
+     margin-left: 80px;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.skill-image {
+    width: 80px; /* Adjusted for better visibility */
+    height: 80px; /* Square aspect ratio for uniformity */
+    object-fit: contain;
+}
+.git{
+    background-color: white;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .skill {
+        margin-top: 70px;
+        padding: 20px 10px;
+        justify-content: space-between;
+    }
+
+    .skill-card {
+        height: auto; /* Adjusted for smaller screens */
+        margin: 20px;
+       
+    }
+
+    .skill-image {
+        width: 60px;
+        height: auto;
+    }
+}

@@ -1,0 +1,77 @@
+.hero {
+    text-align: center;
+    padding: 50px;
+    background:gray;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .hero h1 {
+    font-size:60px;
+    color:white;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size:30px;
+    color: white;
+  }
+  #name{
+    color:orange;
+  }
+  
+  .hero #hire{
+    padding: 10px 20px ;
+    margin: 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .hero #hire:hover{
+    color: #fff;
+    background:red;
+    font-size: larger;
+
+  }
+  .hero #work{
+    padding: 10px 20px ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+
+  }
+  .hero #work:hover{
+    color: #fff;
+    font-size: larger;
+
+  }
+  .hero{
+    background: url("/public/image/img3.jpg") no-repeat;
+    height:100vh;
+    width:100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+  .cnt{
+    justify-content: center;
+    align-items: center;
+    
+  }
+@media(max-width:768px){
+  .hero h1 {
+    font-size:40px;
+    color:white;
+    font-weight: 600;
+  }
+  .hero p {
+    font-size:20px;
+    color: white;
+  }
+
+}

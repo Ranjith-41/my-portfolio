@@ -1,0 +1,40 @@
+#experience {
+    padding: 50px;
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  #experience h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:#fff;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .experience-item h3 {
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  .experience-item p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience-item li {
+    margin-bottom: 10px;
+  }
+  
