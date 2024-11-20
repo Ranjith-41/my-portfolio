@@ -20,7 +20,10 @@ const Header = () => {
         <Navbar.Brand id="brand" as={Link} to="/" onClick={handleNavClick}>
           RANJITH
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-nav" onClick={handleToggle} />
+        <Navbar.Toggle aria-controls="navbar-nav" className="custom-toggler" onClick={handleToggle}>
+</Navbar.Toggle>
+
+
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/" onClick={handleNavClick}>

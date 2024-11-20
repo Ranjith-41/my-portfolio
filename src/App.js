@@ -14,6 +14,7 @@ function App() {
     <Router>
       {/* Header is always visible */}
       <Header />
+      
 
       {/* Define Routes for Each Section */}
       <Routes>
